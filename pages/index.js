@@ -52,9 +52,7 @@ function Index() {
              <h1>JG </h1>
              <p>Sign Up</p>
           <div className={style.log}>
-            <input type='text' placeholder='Username'/>
             <input type='email' placeholder='Email'/>
-            <input type='text' placeholder='Phone Number'/>
             <input type='Password' placeholder='Password'/>
             <input type='Password' placeholder='Confirm Password'/>
             <button>Sign Up</button>

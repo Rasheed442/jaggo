@@ -21,7 +21,7 @@ function Main() {
                 <h2>JG Sport</h2>
               </div>
               <div className={style.icon}>
-                   <BiSearch size={30} onClick={()=> setSearch(true)}/>
+                   <BiSearch size={30} onClick={()=> setSearch(!search)}/>
                    <AiOutlineBell size={30}/>
                    <Image
                    priority

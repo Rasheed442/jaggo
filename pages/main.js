@@ -22,7 +22,10 @@ function Main() {
               </div>
               <div className={style.icon}>
                    <BiSearch size={30} onClick={()=> setSearch(!search)}/>
+                   <div className={style.span}>
                    <AiOutlineBell size={30}/>
+                   <span>0</span>
+                   </div>
                    <Image
                    priority
                    src='/snik.png'

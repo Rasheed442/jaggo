@@ -21,6 +21,13 @@
     color: white;
     padding: 20px;
 }
+.span span{
+    position: absolute;
+    margin-left: -10px;
+    background-color: red;
+    padding: 2px;
+    border-radius: 20px;
+}
 .ball{
     display: flex;
 }

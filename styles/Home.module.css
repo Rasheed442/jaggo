@@ -7,7 +7,12 @@
   top: 0;
 
 }
-
+.header{
+  margin: 20px;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+}
 .container{
   color: white;
 }

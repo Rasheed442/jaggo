@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    margin: 30px;
+    gap: 10px;
+    color: white;
+}
+.header img{
+    background-color: white;
+    border-radius: 30px;
+}
+.obs{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.lewa{
+    display: flex;
+    justify-content: center;
+}

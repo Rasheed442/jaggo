@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import style from '../styles/main.module.css'
 import {BiFootball, BiSearch} from 'react-icons/bi'
 import {AiOutlineBell} from 'react-icons/ai'
 import Image from 'next/image'
+import Footer from '../component/Footer'
+import Aos from "aos";
+import "aos/dist/aos.css";
+import Post from '../component/Post'
 
 function Main() {
+   useEffect(() => {
+      Aos.init({ duration: 500 });
+    }, []);
+     const [search, setSearch] = useState(false)
   return (
     <div className={style.container}>
         <div className={style.header}>
@@ -13,7 +21,7 @@ function Main() {
                 <h2>JG Sport</h2>
               </div>
               <div className={style.icon}>
-                   <BiSearch size={30}/>
+                   <BiSearch size={30} onClick={()=> setSearch(true)}/>
                    <AiOutlineBell size={30}/>
                    <Image
                    priority
@@ -23,6 +31,11 @@ function Main() {
                    />
               </div>
         </div>
+
+   {search ?<div className={style.input} data-aos="slide-down">
+      <input type='text' placeholder='search:'/>
+   </div>:""}
+        
 
    <div className={style.uefa}>
             <Image
@@ -220,7 +233,9 @@ function Main() {
 
 
  </div>
-         
+ 
+<Post/>
+         <Footer/>
     </div>
   )
 }

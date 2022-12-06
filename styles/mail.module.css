@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.header img{
+    background-color: white;
+    border-radius: 20px;
+}
+.container{
+     background-color: black;
+     height: 100vh;
+     color: white;
+}
+.search{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    width: 20rem;
+    margin-left: 50px;
+    padding: 5px;
+     border-radius: 20px;
+     margin-top: 20px;
+}
+.search input{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: grey;
+}
+.search ::placeholder{
+    color: white;
+}

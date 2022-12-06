@@ -8,3 +8,10 @@
     display: flex;
     justify-content: space-between;
 }
+.span span{
+    position: absolute;
+    margin-left: -10px;
+    background-color: red;
+    padding: 2px;
+    border-radius: 20px;
+}

@@ -9,7 +9,7 @@
 }
 .container{
      background-color: black;
-     height: 100vh;
+     height: 100%;
      color: white;
 }
 .search{
@@ -21,6 +21,7 @@
     padding: 5px;
      border-radius: 20px;
      margin-top: 20px;
+     margin-bottom: 15px;
 }
 .search input{
     border: none;
@@ -30,4 +31,25 @@
 }
 .search ::placeholder{
     color: white;
+}
+.request{
+    display: flex;
+    gap: 10px;
+    margin: 15px;
+}
+
+.line{
+    display: flex;
+    margin: 30px;
+    gap: 10px;
+    color: white;
+}
+.line img{
+    background-color: white;
+    border-radius: 30px;
+}
+.obs{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }

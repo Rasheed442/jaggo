@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import style from '../styles/mail.module.css'
+import Footer from '../component/Footer'
 import {FiSettings} from "react-icons/fi"
 import {AiOutlineSearch} from "react-icons/ai"
 import {RiMailAddLine} from 'react-icons/ri'
@@ -214,7 +215,7 @@ function Mail() {
 
 
 
-
+  <Footer/>
     </div>
   )
 }

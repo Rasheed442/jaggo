@@ -13,14 +13,14 @@ function Footer() {
   return (
     <>
         <div className={style.container}>
-           <Link href='main'><AiOutlineHome size={30} style={{color:"white"}}/></Link> 
-           <BiSearch size={30}/>
+           <Link href='main'><AiOutlineHome size={25} style={{color:"white"}}/></Link> 
+           <Link href='search' style={{color:"white"}}><BiSearch size={25}/></Link>
             <FaUsers size={30}/>
-            <div className={style.span}> 
-                   <AiOutlineBell size={30}/>
+           <Link href='notify'  style={{color:"white"}}><div className={style.span}> 
+                   <AiOutlineBell size={25}/>
                    <span>0</span>
-              </div>
-           <Link href='mail'><AiOutlineMail size={30} style={{color:"white"}}/></Link> 
+              </div></Link>
+           <Link href='mail'><AiOutlineMail size={25} style={{color:"white"}}/></Link> 
         </div>
     </>
   )

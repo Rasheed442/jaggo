@@ -232,6 +232,7 @@ function Main() {
  </div>
  
 <Post/>
+<Footer/>
     </div>
   )
 }
